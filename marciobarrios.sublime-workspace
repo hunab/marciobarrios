@@ -1,0 +1,1855 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fs",
+				"fs	font-size"
+			],
+			[
+				"trans",
+				"transform	CSS - transform: ;"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"lin",
+				"lingrad	background-image: linear gradient"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph <p>"
+			],
+			[
+				"h1",
+				"h1	Tag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"opacity",
+				"opacity"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"selec",
+				"selectfield"
+			],
+			[
+				"div",
+				"div	div class"
+			],
+			[
+				"FILTE",
+				"filter-bar"
+			],
+			[
+				"bg",
+				"bg	background"
+			],
+			[
+				"di",
+				"display	display: common-types"
+			],
+			[
+				"head",
+				"head	<head>"
+			],
+			[
+				"word",
+				"word-break"
+			],
+			[
+				"m",
+				"m	margin: all"
+			],
+			[
+				"ssAdPromote",
+				"ssAdPromoteSpend"
+			],
+			[
+				"line",
+				"linear-gradient"
+			],
+			[
+				"ls",
+				"ls	letter-spacing: normal"
+			],
+			[
+				"ma",
+				"margin	margin: V H"
+			],
+			[
+				"span",
+				"span	<span>"
+			],
+			[
+				"p",
+				"p	padding: all"
+			],
+			[
+				"linea",
+				"linear-gradient"
+			],
+			[
+				"brea",
+				"break-word"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"lh",
+				"lh	line-height: length"
+			],
+			[
+				"db",
+				"db	display: block"
+			],
+			[
+				"c",
+				"c	color: hex"
+			],
+			[
+				"flr",
+				"flr	float: right"
+			],
+			[
+				"fr",
+				"from"
+			],
+			[
+				"mb",
+				"mb	margin-bottom"
+			],
+			[
+				"bb",
+				"bb	border-bottom"
+			],
+			[
+				"pb",
+				"pb	padding-bottom"
+			],
+			[
+				"mt",
+				"mt	margin-top"
+			],
+			[
+				"tal",
+				"text-align"
+			],
+			[
+				"w",
+				"w	width: length"
+			],
+			[
+				"fwb",
+				"fwb	font-weight: bold"
+			],
+			[
+				"oa",
+				"oa	overflow: auto"
+			],
+			[
+				"fc",
+				"first-child"
+			],
+			[
+				"h",
+				"h	height: length"
+			],
+			[
+				"ml",
+				"ml	margin-left"
+			],
+			[
+				"b",
+				"b	border"
+			],
+			[
+				"bgc",
+				"bgc	background-color: hex"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"layou",
+				"layout"
+			],
+			[
+				"ul",
+				"ul	<ul>"
+			],
+			[
+				"li",
+				"li	list li"
+			],
+			[
+				"ol",
+				"ol	list ol"
+			],
+			[
+				"poa",
+				"poa	position: absolute"
+			],
+			[
+				"por",
+				"por	position: relative"
+			],
+			[
+				"mr",
+				"mr	margin-right"
+			],
+			[
+				"ta",
+				"ta	text-align: right"
+			],
+			[
+				"tac",
+				"tac	text-align: center"
+			],
+			[
+				"tar",
+				"Targeting"
+			],
+			[
+				"vam",
+				"vam	vertical-align: middle"
+			],
+			[
+				"fwn",
+				"fwn	font-weight: normal"
+			],
+			[
+				"Selfs",
+				"SelfServeAds"
+			],
+			[
+				"z-ine",
+				"z-index"
+			],
+			[
+				"fl",
+				"flr	float: right"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"bt",
+				"bt	border-top"
+			],
+			[
+				"ssAdB",
+				"ssAdBar"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"i",
+				"i	<i>"
+			],
+			[
+				"fll",
+				"fll	float: left"
+			],
+			[
+				"dib",
+				"dib	display: inline-block"
+			],
+			[
+				"ts",
+				"text-shadow"
+			],
+			[
+				"bw",
+				"bw	border-width: V H"
+			],
+			[
+				"pt",
+				"pt	padding-top"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"po",
+				"po	position: static (default)"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"backgr",
+				"background	background-attachment: scroll/fixed"
+			],
+			[
+				"l",
+				"lh	line-height: length"
+			],
+			[
+				"border-radius",
+				"border-radius"
+			],
+			[
+				"bln",
+				"blsn	border-left-style: none"
+			],
+			[
+				"fw",
+				"fw	font-weight: normal"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"efn",
+				"efn	function with doctype"
+			],
+			[
+				"multi",
+				"multiColumn"
+			],
+			[
+				"ssAdStepsSub",
+				"ssAdStepsSubTitle"
+			],
+			[
+				"bac",
+				"background	background-attachment: scroll/fixed"
+			],
+			[
+				"26px",
+				"26px"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"none",
+				"none"
+			],
+			[
+				"last-chi",
+				"last-child"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"bef",
+				"before"
+			],
+			[
+				"transpar",
+				"transparent"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"padding-ri",
+				"padding-right"
+			],
+			[
+				"15px",
+				"150px"
+			],
+			[
+				"3",
+				"3deg"
+			],
+			[
+				"border-bottom-c",
+				"border-bottom-color"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"border-b",
+				"border-bottom-color"
+			],
+			[
+				"text-shadow",
+				"text-shadow"
+			],
+			[
+				"1",
+				"15px"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"10",
+				"10px"
+			],
+			[
+				"ws",
+				"ws: white-space: nowrap"
+			],
+			[
+				"o",
+				"o: overflow: visible"
+			],
+			[
+				"tt",
+				"tt: text-transform: capitalize"
+			],
+			[
+				"va",
+				"va: vertical-align: middle"
+			],
+			[
+				"td",
+				"td: text-decoration: none"
+			],
+			[
+				"pos",
+				"pos: position: static (default)"
+			],
+			[
+				"h2",
+				"h2: h2"
+			],
+			[
+				"otro",
+				"h2.otro"
+			],
+			[
+				"ce",
+				":center"
+			],
+			[
+				"co",
+				"color: color: hex"
+			],
+			[
+				"he",
+				"head: <head>"
+			],
+			[
+				"br",
+				"br: <br>"
+			],
+			[
+				"text",
+				"text: text-align: left/center/right"
+			],
+			[
+				"small",
+				"small"
+			],
+			[
+				"casa",
+				"div.casa"
+			],
+			[
+				"padding",
+				"padding: padding-left: length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "s.css",
+			"settings":
+			{
+				"buffer_size": 6970,
+				"line_ending": "Unix",
+				"name": "* { pp }"
+			}
+		},
+		{
+			"file": "js/s.js",
+			"settings":
+			{
+				"buffer_size": 720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marcio/Dropbox/Resources/UI Icons/icon Fonts/ss-social/readme.txt",
+			"settings":
+			{
+				"buffer_size": 4002,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"selected_items":
+		[
+			[
+				"keyf",
+				"Snippet: CSS - @keyframes {}"
+			],
+			[
+				"animatio",
+				"Snippet: CSS - animation: ;"
+			],
+			[
+				"lint",
+				"Tag: Lint Selection or Document"
+			],
+			[
+				"commen",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"link",
+				"Snippet: a (link)"
+			],
+			[
+				"UPPERCASE",
+				"Convert Case: Upper Case"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"rul",
+				"CSS rules toggle"
+			],
+			[
+				"rule",
+				"CSS rules expand"
+			],
+			[
+				"ru",
+				"CSS rules toggle"
+			],
+			[
+				"css",
+				"Snippet: cursor: crosshair"
+			],
+			[
+				"dib",
+				"Snippet: display: inline-block"
+			],
+			[
+				"packa u",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"oack",
+				"Package Control: List Packages"
+			],
+			[
+				"fetch",
+				"Fetch: Manage remote files"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"efn",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa d",
+				"Package Control: Disable Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"git",
+				"Snippet: background-image: linear gradient"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa l",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"img plac",
+				"Snippet: Image - Placeholder"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 164.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marcio/.bash_prompt",
+		"/Users/marcio/Sites/personal/marciobarrios/_weightshift-The-Personal-Page-f7bf49f/index.html",
+		"/Users/marcio/Library/Caches/Cleanup At Startup/Transmit/30CF1914-3BD6-4A91-9B83-295771CDA060/.htaccess",
+		"/Users/marcio/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/marcio/Sites/personal/marciobarrios/webfont/ss-social.css",
+		"/etc/hosts",
+		"/Users/marcio/.exports",
+		"/Users/marcio/.bash_profile",
+		"/Users/marcio/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/marcio/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/bootstrap/forms.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/bootstrap/icons.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Shared/PhotoChooserShowcaseUpload.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-feed-css/css/feed.css",
+		"/Users/marcio/Sites/branches/ui/main/app/backend/notifications/NotificationCenter.php",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Comments/Comment.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-infocard-css/css/infocard.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Profile/Infocard.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-ConversationDockItem.html",
+		"/Users/marcio/Sites/branches/ui/static/layout/web2-Zero/css/refactor/nChat.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-css/css/dock.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-css/css/chat.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/helpers/z-elements.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/helpers/structures.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/bootstrap/buttons.css",
+		"/Users/marcio/Sites/branches/ui.sublime-project",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-chat-templates/templates/chat-RosterItem.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-RosterItem.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-ConversationNotification.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/ShareBox/ShareBox.phtml",
+		"/Users/marcio/Sites/branches/ui/static/layout/web2-Zero/css/refactor/nCore.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-infocard-css/t-infocard-css.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-ConversationNotificationImage.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Walls/PostingBox.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Chat/Sidebar.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/ShareBox/Canvas.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Profile/AvatarFirstRun.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-settings/js/CupcakeSettingsPageCoordinator.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-settings/build.properties",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-chat-templates/templates/chat-ConversationNotificationImage.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-RoomMember.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Home/AddFriendsWidgetFriend.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Chat/BlockedList.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownContent.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-photo-templates/templates/photo-Actions.html",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/bootstrap/layout.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Feed/FriendEntry.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-chat-templates/t-chat-templates-debug.js",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-chat-templates/templates/chat-ConversationDockItem.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-chat-ui/js/ChatSettings.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-photo-css/css/cupcake-photo.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/RichMediaForWalls/RichMediaVideo.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/RichMediaExtracted/RichMediaVideo.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-photostrip-css/t-photostrip-css.css",
+		"/Users/marcio/Sites/branches/ui/static/.yui/t-photostrip-css/t-photostrip-css.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-footer/js/Footer.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Comments/CommentBox.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-wall-css/css/wall.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-photo/js/OverlayRenderer.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-notifications-css/css/notifications.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/web2-Zero/css/base/overlay.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Profile/PersonalDetails.phtml",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/bootstrap/bulletproof.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-status-css/css/status.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-autofill/js/AutofillMarkupPlugin.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-autofill-user-templates/templates/autofill-User.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-register-login-css/t-register-login-css.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-footer/js/Footer.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-autofill/t-autofill.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-autofill/meta/t-autofill.json",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-search-css/css/t-search.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/MultiItemSearch/UserItemLayout.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Profile/RequestManagementInfocard.phtml",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-autofill-user-templates/templates/autofill-User.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Shared/BirthDateSelector.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-cupcake-photo-templates/t-cupcake-photo-templates.js",
+		"/Users/marcio/Sites/branches/ui/static/.yui/t-cupcake-photo-templates/t-cupcake-photo-templates.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Comments/NoCommentsCanvas.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownContent.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Shared/LanguageChooserLinks.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-autofill-user-templates/templates/autofill-AutoComplete.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/MultiItemSearch/UserOptionsDropdownTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Agenda/Birthdays.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-photostrip-css/css/photostrip.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-notifications-css/t-notifications-css.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-topnavbar/js/TopNavbar.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/TopNavbar/SettingsMenu.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/TopNavbar/NotificationsBubble.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/TopNavbar/NotificationsTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Walls/Filters.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Albums/AlbumSelector.phtml",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/helpers/animations.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/Web2StaticFileBundles.php",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-uploadphoto/js/PhotoSharing.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/TopNavbar/SettingsTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/TopNavbar/PhotoUploadTrigger.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-search-css/css/search.css",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-infocard-css/css/infocard.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Profile/AlbumPreview.phtml",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-cupcake-walls/js/Wall.js",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-dropdown/js/Dropdown.js",
+		"/Users/marcio/Sites/branches/ui/static/.yui_src/t-autofill-user-templates/templates/autofill-AutoComplete.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Feed/WallPost.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-topnavbar-search-templates/templates/no-results.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-topnavbar-search-templates/templates/search-all.html",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-feedback-overlay/js/FeedbackOverlayManager.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Settings/Deletion.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Settings/DeleteAccountConfirmationBlock.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Register/CupcakeForm.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Settings/DeleteAccountReasons.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-feedback-overlay-templates/templates/feedbackOverlay.html",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/FriendsImporter/Overlay.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Settings/DeletePhonebook.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/build/t-cupcake-search-css/t-cupcake-search-css.css",
+		"/Users/marcio/Sites/branches/ui/static/layout/cupcake/css/helpers/register-login.css",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-modal-templates/templates/panelBoundingBox.html",
+		"/Users/marcio/Sites/branches/ui/static/.yui/t-register-login-css/t-register-login-css.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/Register/CupcakeCanvas.phtml",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Login/Login.phtml",
+		"/Users/marcio/Sites/branches/ui/static/layout/web2-Zero/css/cupcake/register-autofill.css",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Login/RequestNewPasswordForm.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-cupcake-settings/js/settings.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake/Settings/NameChangeOverlay.phtml",
+		"/Users/marcio/Sites/branches/ui/main/core/lib_external/yui/tuenti/t-modal/js/Modal.js",
+		"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/XHTML-Zero/PhoneRegister/CupcakeForm.phtml"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*html",
+			"*css",
+			"*html",
+			"*css",
+			"*html",
+			"*css",
+			"*html",
+			"*css",
+			"*js",
+			"*html",
+			"*css",
+			"*html",
+			"*css",
+			"*js",
+			"*css",
+			"*html",
+			"*.phtml",
+			"*.css",
+			"*.js",
+			"",
+			"*.phtml",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"",
+			"*.phtml",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"*.js",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"",
+			"*.css",
+			"",
+			"/main/localized/interfaces/web2/templates/cupcake/Feed",
+			"*.phtml",
+			"*.html",
+			"",
+			"*.css",
+			"*.html",
+			"*.phtml",
+			"*.html",
+			"*.phtml",
+			"/main/localized/interfaces/web2/templates/cupcake/Settings/",
+			"*.css",
+			"*.js",
+			"*.html",
+			"*.phtml",
+			"",
+			"*.phtml",
+			"*.css",
+			"*.phtml",
+			"*.css",
+			"",
+			"/Users/marcio/Sites/branches/ui/main/localized/interfaces/web2/templates/cupcake",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"",
+			"*html,<open folders>",
+			"",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>",
+			"*css",
+			"",
+			"selection",
+			"",
+			"<open folders>",
+			"*css,<open folders>",
+			"*html,<open folders>",
+			"*css,<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".loading",
+			"hidden",
+			"filter",
+			"webfonts",
+			"body:hover",
+			"animation",
+			"blink",
+			"-webkit",
+			"filter:",
+			"-webkit",
+			"tuenti",
+			".bg",
+			"highlight",
+			"rvm",
+			"export",
+			"display",
+			"white",
+			"draw_white_space",
+			"high",
+			"find_selected_text",
+			"options",
+			"line",
+			"soda",
+			"\"soda_classic_tabs\": true",
+			"button",
+			"focus",
+			"fcus",
+			":focus",
+			"feedback",
+			"error",
+			"<<<",
+			"i-op",
+			"i-op-",
+			"contact",
+			"group",
+			"thumb-",
+			"return 0",
+			"photo_upload_retry",
+			"margin-right",
+			"margin-left",
+			"offset",
+			"frdbox-photo-change",
+			".m-friendbox .itm-media",
+			"itm-media",
+			".m-friendbox .itm-media",
+			"itm-media",
+			"frdbox-photo-change",
+			".dck-messages > li",
+			"dck-load-messages\n",
+			"dck-load-messages",
+			"actions",
+			"frdbox-photo-change",
+			"frdbox",
+			".cht-meta",
+			"cht-item-body",
+			"-1px",
+			"vguide",
+			".cht-recent .h-vguide",
+			"vguide",
+			".cht-meta",
+			"-4px",
+			".cht-recent .h-vguide",
+			"cht-meta",
+			".cht-meta",
+			".cht-media",
+			".cht-item .sel-item",
+			"cht-last-message",
+			"cht-item cht-recent",
+			"recent",
+			"cht-recent",
+			"itm-body-exp",
+			"cht-username",
+			"last-messa",
+			"username",
+			"itm-actions cht-meta",
+			"actions",
+			"cht-meta",
+			".cht-meta",
+			"disabled",
+			"act-disabled",
+			".action.disabled",
+			"disabled",
+			".act-disabled",
+			"disabled",
+			"emptyAvatar",
+			"m-status",
+			"focus",
+			"return count",
+			"dck-group-collapsed",
+			"button",
+			"item h-center dck-load-messages",
+			".cht-meta",
+			"inline-block",
+			".dck-info .dck-avatar",
+			"inline-block",
+			"frdbox-photo-change",
+			"inline-block",
+			"frdbox-photo-change",
+			"dropdown",
+			"avatar itm-media js-avatar-image avatar",
+			"dck-wizard dck-wzr-options",
+			"m-friendbox",
+			"lib_external",
+			"frdbox-actions",
+			"profilea",
+			"dck-load-messages",
+			"dck-info",
+			"dck-info dck-info-room",
+			".cf",
+			"h-text zero-hide cht-last-message h-ellipsis",
+			"chat_home_retry_timer",
+			"chat_home_retry_button",
+			"act-header",
+			"<<<",
+			".dck-members",
+			"block",
+			"not",
+			".act-header",
+			"avatar",
+			"absolute",
+			"borderF",
+			"block",
+			"dck-members",
+			"dck-mbs-inner",
+			"block",
+			"dck-members",
+			"block",
+			"borderFit"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"margin-left",
+			"offset-",
+			"col-",
+			"48",
+			"#f6f6f6\n		background: -moz-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: -o-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: -ms-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);",
+			"background: -webkit-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: -moz-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: -o-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: -ms-linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);\n		background: linear-gradient(transparent, transparent 47px, #f0f0f0 47px, #fff 60%);",
+			"%(landing",
+			"</span",
+			"<span",
+			"Progress",
+			"20",
+			"rgb(223, 223, 223)",
+			"187",
+			"//'layout/web2-Zero/css/refactor/nVideo.css'",
+			"//'layout/web2-Zero/css/refactor/nGames.css'",
+			"//'layout/web2-Zero/css/page/places.css'",
+			"//'layout/web2-Zero/css/refactor/places.css'",
+			"//'layout/web2-Zero/css/refactor/nPlaces.css',",
+			"15%"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3619,
+								3619
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "s.css",
+					"settings":
+					{
+						"buffer_size": 6970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6006,
+								6006
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* { pp }",
+							"is_xml": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2813.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/s.js",
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/marcio/Dropbox/Resources/UI Icons/icon Fonts/ss-social/readme.txt",
+					"settings":
+					{
+						"buffer_size": 4002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1469,
+								1469
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"land.html",
+				"main/localized/interfaces/web2/templates/cupcake/Login/LandingPage.phtml"
+			],
+			[
+				"bullet",
+				"static/layout/cupcake/css/bootstrap/bulletproof.css"
+			],
+			[
+				"cupcakeforms.css",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"formscss",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"z-",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"butt",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"photochoosershowcaseupload.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Shared/PhotoChooserShowcaseUpload.phtml"
+			],
+			[
+				"notificationcenter.php",
+				"/Users/marcio/Sites/branches/ui/main/app/backend/notifications/NotificationCenter.php"
+			],
+			[
+				"icons.css",
+				"static/layout/cupcake/css/bootstrap/icons.css"
+			],
+			[
+				"feed.css",
+				"main/core/lib_external/yui/tuenti/t-feed-css/css/feed.css"
+			],
+			[
+				"commentphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Comments/Comment.phtml"
+			],
+			[
+				"sidebar",
+				"main/localized/interfaces/web2/templates/XHTML-Zero/Chat/Sidebar.phtml"
+			],
+			[
+				"forms.css",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"buttons.css",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"posting",
+				"main/localized/interfaces/web2/templates/cupcake/Walls/PostingBox.phtml"
+			],
+			[
+				"form",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"sharebox",
+				"main/localized/interfaces/web2/templates/cupcake/ShareBox/ShareBox.phtml"
+			],
+			[
+				"cupcakesettingspagecoordinator.js",
+				"main/core/lib_external/yui/tuenti/t-cupcake-settings/js/CupcakeSettingsPageCoordinator.js"
+			],
+			[
+				"conversationnoti",
+				"main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-ConversationNotification.html"
+			],
+			[
+				"infocard.html",
+				"main/localized/interfaces/web2/templates/cupcake/Profile/Infocard.phtml"
+			],
+			[
+				"butt.cs",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"nchat.c",
+				"static/layout/web2-Zero/css/refactor/nChat.css"
+			],
+			[
+				"chat-roommember.html",
+				"main/core/lib_external/yui/tuenti/t-chat-templates/templates/chat-RoomMember.html"
+			],
+			[
+				"dockhtml",
+				"static/.yui_src/t-chat-templates/templates/chat-ConversationDockItem.html"
+			],
+			[
+				"blockedlist",
+				"main/localized/interfaces/web2/templates/cupcake/Chat/BlockedList.phtml"
+			],
+			[
+				"chatsettings.js",
+				"main/core/lib_external/yui/tuenti/t-chat-ui/js/ChatSettings.js"
+			],
+			[
+				"chat.css",
+				"main/core/lib_external/yui/tuenti/t-chat-css/css/chat.css"
+			],
+			[
+				"buttons.cs",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"icons.cs",
+				"static/layout/cupcake/css/bootstrap/icons.css"
+			],
+			[
+				"richmediaforwalls/richmediavideo.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/RichMediaForWalls/RichMediaVideo.phtml"
+			],
+			[
+				"z-elem",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"languagechooserhtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownContent.phtml"
+			],
+			[
+				"defaultf",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml"
+			],
+			[
+				"photo-stripcss",
+				"main/core/lib_external/yui/build/t-photostrip-css/t-photostrip-css.css"
+			],
+			[
+				"",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"photo-strip",
+				"static/.yui/t-photostrip-css/t-photostrip-css.css"
+			],
+			[
+				"languagehtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownContent.phtml"
+			],
+			[
+				"footerjs",
+				"static/.yui_src/t-footer/js/Footer.js"
+			],
+			[
+				"languagechooserphml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownTrigger.phtml"
+			],
+			[
+				"deffooter",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml"
+			],
+			[
+				"bulletproo",
+				"static/layout/cupcake/css/bootstrap/bulletproof.css"
+			],
+			[
+				"wall.css",
+				"main/core/lib_external/yui/tuenti/t-wall-css/css/wall.css"
+			],
+			[
+				"languagephtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownContent.phtml"
+			],
+			[
+				"photo.css",
+				"main/core/lib_external/yui/tuenti/t-cupcake-photo-css/css/cupcake-photo.css"
+			],
+			[
+				"z-elemen",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"notifications.css",
+				"main/core/lib_external/yui/tuenti/t-notifications-css/css/notifications.css"
+			],
+			[
+				"t-autofill.js",
+				"main/core/lib_external/yui/tuenti/t-autofill/meta/t-autofill.json"
+			],
+			[
+				"autofill-user",
+				"main/core/lib_external/yui/tuenti/t-autofill-user-templates/templates/autofill-User.html"
+			],
+			[
+				"layo",
+				"static/layout/cupcake/css/bootstrap/layout.css"
+			],
+			[
+				"buttoncss",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"user-autofill",
+				"main/core/lib_external/yui/tuenti/t-autofill-user-templates/templates/autofill-AutoComplete.html"
+			],
+			[
+				"morelink",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownTrigger.phtml"
+			],
+			[
+				"defaultfooterphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml"
+			],
+			[
+				"buttons.c",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"layou",
+				"static/layout/cupcake/css/bootstrap/layout.css"
+			],
+			[
+				"nocomment",
+				"main/localized/interfaces/web2/templates/cupcake/Comments/NoCommentsCanvas.phtml"
+			],
+			[
+				"layout.c",
+				"static/layout/cupcake/css/bootstrap/layout.css"
+			],
+			[
+				"cupcakefooterphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml"
+			],
+			[
+				"t-cupcake-photo-templates",
+				"main/core/lib_external/yui/build/t-cupcake-photo-templates/t-cupcake-photo-templates.js"
+			],
+			[
+				"birthsel",
+				"main/localized/interfaces/web2/templates/cupcake/Shared/BirthDateSelector.phtml"
+			],
+			[
+				"birthdayphtml",
+				"main/localized/interfaces/web2/templates/XHTML-Zero/Agenda/Birthdays.phtml"
+			],
+			[
+				"photostripcss",
+				"main/core/lib_external/yui/tuenti/t-photostrip-css/css/photostrip.css"
+			],
+			[
+				"infocardphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Profile/Infocard.phtml"
+			],
+			[
+				"animations.cs",
+				"static/layout/cupcake/css/helpers/animations.css"
+			],
+			[
+				"layout",
+				"static/layout/cupcake/css/bootstrap/layout.css"
+			],
+			[
+				"setingsmenu",
+				"main/localized/interfaces/web2/templates/cupcake/TopNavbar/SettingsMenu.phtml"
+			],
+			[
+				"photostr",
+				"main/core/lib_external/yui/tuenti/t-photostrip-css/css/photostrip.css"
+			],
+			[
+				"photostrip.css",
+				"main/core/lib_external/yui/build/t-photostrip-css/t-photostrip-css.css"
+			],
+			[
+				"photostrip",
+				"main/core/lib_external/yui/tuenti/t-photostrip-css/css/photostrip.css"
+			],
+			[
+				"filterphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Walls/Filters.phtml"
+			],
+			[
+				"albumphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Albums/AlbumSelector.phtml"
+			],
+			[
+				"albumsephtml",
+				"main/localized/interfaces/web2/templates/cupcake/Albums/AlbumSelector.phtml"
+			],
+			[
+				"sanimations.c",
+				"static/layout/cupcake/css/helpers/animations.css"
+			],
+			[
+				"web2stati",
+				"main/localized/interfaces/web2/Web2StaticFileBundles.php"
+			],
+			[
+				"anima",
+				"static/layout/cupcake/css/helpers/animations.css"
+			],
+			[
+				"wall.js",
+				"static/.yui_src/t-cupcake-walls/js/Wall.js"
+			],
+			[
+				"main/core/lib_external/yui/tuenti/t-dropdown/js/",
+				"main/core/lib_external/yui/tuenti/t-dropdown/js/Dropdown.js"
+			],
+			[
+				"noresults",
+				"main/core/lib_external/yui/tuenti/t-topnavbar-search-templates/templates/no-results.html"
+			],
+			[
+				"filters.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Walls/Filters.phtml"
+			],
+			[
+				"wallphtml",
+				"main/localized/interfaces/web2/templates/cupcake/Feed/WallPost.phtml"
+			],
+			[
+				"notificationcss",
+				"main/core/lib_external/yui/build/t-notifications-css/t-notifications-css.css"
+			],
+			[
+				"lay",
+				"static/layout/cupcake/css/bootstrap/layout.css"
+			],
+			[
+				"birthdateselector.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Shared/BirthDateSelector.phtml"
+			],
+			[
+				"icons",
+				"static/layout/cupcake/css/bootstrap/icons.css"
+			],
+			[
+				"dateselec",
+				"main/localized/interfaces/web2/templates/cupcake/Shared/BirthDateSelector.phtml"
+			],
+			[
+				"cupcake-seachcss",
+				"main/core/lib_external/yui/build/t-cupcake-search-css/t-cupcake-search-css.css"
+			],
+			[
+				"registercss",
+				"static/.yui/t-register-login-css/t-register-login-css.css"
+			],
+			[
+				"deletehtml",
+				"main/localized/interfaces/web2/templates/cupcake/Settings/DeleteAccountReasons.phtml"
+			],
+			[
+				"animations",
+				"static/layout/cupcake/css/helpers/animations.css"
+			],
+			[
+				"cupcakesettingshtml",
+				"main/localized/interfaces/web2/templates/cupcake/Settings/DeletePhonebook.phtml"
+			],
+			[
+				"struc",
+				"static/layout/cupcake/css/helpers/structures.css"
+			],
+			[
+				"photo",
+				"static/.yui_src/t-photostrip-css/css/photostrip.css"
+			],
+			[
+				"t-photocss",
+				"static/.yui/t-photostrip-css/t-photostrip-css.css"
+			],
+			[
+				"modal.js",
+				"main/core/lib_external/yui/tuenti/t-modal/js/Modal.js"
+			],
+			[
+				"namechangeoverlay",
+				"main/localized/interfaces/web2/templates/cupcake/Settings/NameChangeOverlay.phtml"
+			],
+			[
+				"user-phtml",
+				"main/core/lib_external/yui/tuenti/t-autofill-user-templates/templates/autofill-AutoComplete.html"
+			],
+			[
+				"cupcakeregisterphtml",
+				"tests/browser/web2-zero/cupcakeRegisterwithphone/RegisterWithPhoneConfirmationEmailTest.php"
+			],
+			[
+				"requestnewpasswordform.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Login/RequestNewPasswordForm.phtml"
+			],
+			[
+				"register-aut",
+				"static/layout/web2-Zero/css/cupcake/register-autofill.css"
+			],
+			[
+				"login.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Login/Login.phtml"
+			],
+			[
+				"cupcakefooter",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/DefaultFooter.phtml"
+			],
+			[
+				"footerphtml",
+				"main/localized/interfaces/mail/templates/Cupcake/Footer/Canvas.phtml"
+			],
+			[
+				"z-ele",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"forms",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"login",
+				"main/localized/interfaces/web2/templates/cupcake/Login/Login.phtml"
+			],
+			[
+				"resendlink.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/EmailActivation/ResendLink.phtml"
+			],
+			[
+				"forms.cs",
+				"static/layout/cupcake/css/bootstrap/forms.css"
+			],
+			[
+				"icon",
+				"static/layout/cupcake/css/bootstrap/icons.css"
+			],
+			[
+				"morelinkdropdowntrigger.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownTrigger.phtml"
+			],
+			[
+				"more",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownContent.phtml"
+			],
+			[
+				"morelinkdropdowncontent.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/MoreLinkDropDownContent.phtml"
+			],
+			[
+				"languagechooserdropdowntrigger.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownTrigger.phtml"
+			],
+			[
+				"settingsmenu.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/TopNavbar/SettingsMenu.phtml"
+			],
+			[
+				"dropdown.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Layout/Dropdown.phtml"
+			],
+			[
+				"languagechooserdropdowncontent.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/Footer/LanguageChooserDropdownContent.phtml"
+			],
+			[
+				"changeemailform.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/EmailActivation/ChangeEmailForm.phtml"
+			],
+			[
+				"languagechooserlightmenu.phtml",
+				"main/localized/interfaces/web2/templates/XHTML-Zero/Shared/LanguageChooserLightMenu.phtml"
+			],
+			[
+				"confirmationreminder.phtml",
+				"main/localized/interfaces/web2/templates/cupcake/EmailActivation/ConfirmationReminder.phtml"
+			],
+			[
+				"views/cupcake/emailactivation",
+				"main/localized/interfaces/web2/views/cupcake/EmailActivation/ConfirmationReminder.php"
+			],
+			[
+				"structures",
+				"static/layout/cupcake/css/helpers/structures.css"
+			],
+			[
+				"panelboundingbox",
+				"static/.yui_src/t-modal-templates/templates/panelBoundingBox.html"
+			],
+			[
+				"icons.c",
+				"static/layout/cupcake/css/bootstrap/icons.css"
+			],
+			[
+				"register/cupcakeform.phtml",
+				"main/localized/interfaces/web2/templates/XHTML-Zero/Register/CupcakeForm.phtml"
+			],
+			[
+				"button.cs",
+				"static/layout/cupcake/css/bootstrap/buttons.css"
+			],
+			[
+				"t-settings.cs",
+				"static/.yui/t-settings-css/t-settings-css.css"
+			],
+			[
+				"z-el",
+				"static/layout/cupcake/css/helpers/z-elements.css"
+			],
+			[
+				"bull",
+				"static/layout/cupcake/css/bootstrap/bulletproof.css"
+			],
+			[
+				"regis",
+				"static/layout/cupcake/css/helpers/register-login.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"rele",
+				"/Users/marcio/Sites/branches/release.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true
+}
