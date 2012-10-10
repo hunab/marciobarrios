@@ -180,12 +180,19 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     border-right-width: 34em;
   }
 
-  /* Background layer */
+  /* 
+    Background layer
+
+    1. Easy way to make the background to cover all the screen (http://cl.ly/K2UL)
+    2. Using new webkit filters w/ a nice effect: if you move out your
+       cursor from the viewport it will desaturate the background, more info
+       about webkit filters: http://cl.ly/K1ls
+  */
   .bg {
     position: fixed; top: 0; right: 0; bottom: 0; left: 0;
     background: url(img/bg.jpg) no-repeat center center fixed;
-    background-size: cover;
-    -webkit-filter: grayscale(100%);
+    background-size: cover; /* 1 */
+    -webkit-filter: grayscale(100%); /* 2 */
     transition: 1s;
   }
   html:hover .bg { -webkit-filter: grayscale(50%); }

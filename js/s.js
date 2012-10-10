@@ -1,18 +1,12 @@
+// by @marciobarrios
+// It waits till the background image is loaded and then adds the class "ready" to <body>
 (function(app, $, undefined) {
-    //private vars
-    var imgReady = false;
-    
     //public vars
     app.IMG          = "img/bg.jpg";
-    app.spinnerClass = "loading";
-    app.hideClass    = "hidden";
     app.readyClass   = "ready";
 
     // private methods
-    function onLoadImage() {
-      document.body.className = app.readyClass;
-      //document.getElementsByClassName(app.spinnerClass)[0].className += " " + app.hideClass;
-    }
+    function onLoadImage() { document.body.className = app.readyClass; }
 
     // public methods
     app.init = function() {
