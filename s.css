@@ -183,8 +183,8 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   /* 
     Background layer
 
-    1. Easy way to make the background to cover all the screen (http://cl.ly/K2UL)
-    2. Using new webkit filters w/ a nice effect: if you move out your
+    1. Easy way to make the background to cover all the viewport (http://cl.ly/K2UL)
+    2. New webkit filters to create a nice effect: if you move out your
        cursor from the viewport it will desaturate the background, more info
        about webkit filters: http://cl.ly/K1ls
   */
