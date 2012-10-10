@@ -1,69 +1,101 @@
 /*················································································
   Styles for marciobarrios.com, by @marciobarrios
   
-  Not minimized because I love to learn and I've inspected lots of CSS 
-  from many sites, so it's fair to let you steal/copy/learn :)
+   _       __     __                                 __          __     __
+  | |     / /__  / /________  ____ ___  ___     ____/ /_  ______/ /__  / /
+  | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \   / __  / / / / __  / _ \/ / 
+  | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/  / /_/ / /_/ / /_/ /  __/_/  
+  |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/   \__,_/\__,_/\__,_/\___(_)   
+                                                                              
+
+  These styles are not minimized because I love to learn and I've inspected 
+  lots of CSS from many sites, so it's fair to let you steal/copy/learn :)
   
   I'm using a mobile first approach, so I style a very basic version of the site 
   and inside media queries I add the more css to add value for bigger screens
   
-  Note: I'm using PrefixFree (http://leaverou.github.com/prefixfree) to not
-  write browser prefixes, great!
+  Note: I'm using PrefixFree (http://cl.ly/K2vt) to not write browser prefixes, great!
   
   Ah! and remember: http://dowebsitesneedtolookexactlythesameineverybrowser.com
   ················································································*/
 
 /* 
-	Super minimal Reset :P if you need one for a "real" project, 
-  use normalize.css (http://necolas.github.com/normalize.css/).
-  Read this related with "box-sizing" property: http://paulirish.com/2012/box-sizing-border-box-ftw 
+  Super minimal Reset :P if you need one for a "real" project, 
+  use normalize.css (http://cl.ly/K2QO)
+
+  Read this related with "box-sizing" property: http://cl.ly/K1kT 
 */
 * { padding: 0; margin: 0; box-sizing: border-box; }
 
-/* General styles */
+/* 
+  General styles 
+
+  1. I use typekit (www.typekit.com) to load webfonts, I recommend it! 
+  2. I use to write rgb/hex fallbacks for rgba for <IE9
+  3. Controls how the browser renders text (more info: http://cl.ly/K1pT)
+  4. Prevents zoom on mobile browsers, use it carefully (http://cl.ly/K1to)
+ */
 html {
-	font: 100%/1.5 "proxima-nova-1","proxima-nova-2", sans-serif;
-	color: rgb(51,51,51); color: rgba(0,0,0,.7);
-	-webkit-font-smoothing: antialiased;
-	-webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  font: 100%/1.5 "proxima-nova-1","proxima-nova-2", sans-serif; /* 1 */
+  color: rgb(51,51,51); color: rgba(0,0,0,.7); /* 2 */
+  -webkit-font-smoothing: antialiased; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 4 */
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 
 /* Loading layer */
 .loading { display: none; }
 .ready .loading { transition: .5s linear; opacity: 0; z-index: -1; }
 
-/* title block */
-hgroup { position: relative; text-align: center; line-height: 1.2; }
+/* 
+  Title block 
 
-/* Title separator */
+  1. Use unitless line-height (http://cl.ly/K2Zs)
+*/
+hgroup { position: relative; text-align: center; line-height: 1.2; } /* 1 */
+
+/* 
+  Title separator
+  
+  1. Only to remember, transition is a shorthand taking advantage of these defaults:
+     transition-property: all, transition-timing-function: ease, transition-delay: 0s
+*/
 hgroup:after {
-	content: "";
-	display: block;
-	height: 1px;
-	margin-top: 2em;
-	background: rgba(0,0,0,.2);
-	box-shadow: 0 1px -1px 0px rgba(0,0,0,.05);
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 2.5em;
+  background: rgba(0,0,0,.2);
+  box-shadow: 0 1px -1px rgba(0,0,0,.05);
 }
+  h1 { position: relative; z-index: 1; font-size: 3em; font-weight: 700; transition: .25s; } /* 1 */
+    h1 b { display: none; }
+    h1 i { display: inline-block; font-style: normal; }
 
-h1 { position: relative; z-index: 1; font-size: 3em; font-weight: 700; transition: .25s; }
-	h1 b { display: none; }
-	h1 i { display: inline-block; font-style: normal; }
+  h2 { font-size: .8em; letter-spacing: .4em; font-weight: 400; }
 
-h2 { font-size: .8em; letter-spacing: .4em; font-weight: 400; }
+/* 
+  Other elements 
 
-/* Other elements */
-p { margin-top: 1em; font-size: 1.2em; hyphens: auto; }
+  1. I recommend to use hyphens for your paragraphs (http://cl.ly/K36M)
+*/
+p { margin-top: 1.2em; font-size: 1.2em; hyphens: auto; } /* 1 */
 
-/* quote */
-blockquote { quotes: "\201C" "\201D" "\2018" "\2019"; margin: 2em 0; }
+/* 
+  Quote 
+
+  1. Using unicode characters (in this case for quotes), a great resource here: http://unicodinator.com
+  2. Remember, in HTML5 footer is not only the page footer (http://cl.ly/K2ei)
+*/
+blockquote { margin: 2em 0; }
 blockquote p {
-	font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", sans-serif; 
-	margin: 0;
+  font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", sans-serif;
+  margin: 0;
 }
-blockquote p:before { content: "\201C"; }
+blockquote p:before { content: "\201C"; } /* 1 */
 blockquote p:after  { content: "\201D"; }
-blockquote footer { display: block; text-align: right; font-style: normal; margin-right: 2.2em; }
+blockquote footer { display: block; text-align: right; font-style: normal; margin-right: 2.2em; } /* 2 */
 blockquote footer:before { content: "\2014  "; }
 
 /* Generic links */
@@ -74,161 +106,188 @@ a:active, a:hover { outline: 0; }
 /* Main section */
 section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
-/* Social icons using web fonts (http://symbolset.com) */
-.social { letter-spacing: -.2em; margin-left: -.8em; }
-	.social > li { 
-		position: relative;
-		display: inline-block;
-		vertical-align: top;
-		letter-spacing: 0;
-		line-height: 1.1;
-		margin: .8em 0 0 .8em;
-	}
-		.ss-icon { font-size: 2.5em; color: rgba(0,0,0,.5); text-shadow: 0 0 10px white; transition: .5s; }
-		.ss-icon:hover { color: rgba(0,0,0,.8); color: #369BCA; }
+/* 
+  Social icons using web fonts (http://symbolset.com)
 
-		/* Tooltip to show on hover for every item */
-		.hint {
-			position: absolute; top: -3.5em; left: 50%;
-			width: 6em;
-			margin-left: -3em;
-			padding: .2em .4em;
-			text-align: center;
-			border-radius: 3px;
-			background: rgba(0,0,0,.8);
-			border: 1px solid black;
-			color: white; 
-			box-shadow: inset 0 0 0 1px rgba(255,255,255,.2);
-			opacity: 0;
-			transition: .25s;
-		}
-		.hint:before {
-			content: "";
-			position: absolute; bottom: -11px; left: 50%;
-			width: 0;
-			height: 0;
-			margin-left: -5px;
-			border: 5px solid transparent;
-			border-top-color: black;
-		}
-		li:hover > .hint { top: -2.5em; opacity: 1; }
+  1. This letter-spacing is to remove white space between inline-block elements,
+     but there are other ways to do it: http://cl.ly/K2wS
+*/
+.social { letter-spacing: -.2em; margin-left: -.8em; } /* 1 */
+  .social > li { 
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 0;
+    line-height: 1.1;
+    margin: .8em 0 0 .8em;
+  }
+    .ss-icon { font-size: 2.5em; color: rgba(0,0,0,.5); text-shadow: 0 0 10px white; transition: .5s; }
+    .ss-icon:hover { color: rgba(0,0,0,.8); color: #369BCA; }
+
+    /* Tooltip to show transitioned on hover for every item */
+    .hint {
+      position: absolute; top: -3.5em; left: 50%;
+      width: 6em;
+      margin-left: -3em;
+      padding: .2em .4em;
+      text-align: center;
+      border-radius: 3px;
+      background: rgba(0,0,0,.8);
+      border: 1px solid black;
+      color: white; 
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.2);
+      opacity: 0;
+      transition: .25s;
+    }
+    /* Making a triangle with borders, more info: http://cl.ly/K2yS */
+    .hint:before {
+      content: "";
+      position: absolute; bottom: -11px; left: 50%;
+      width: 0;
+      height: 0;
+      margin-left: -5px;
+      border: 5px solid transparent;
+      border-top-color: black;
+    }
+    li:hover > .hint { top: -2.5em; opacity: 1; }
 
 
-/* MEDIA QUERIES 
+/* MEDIA QUERIES
    ················································································*/
 
 /* smaller than iPad, due tu a mobile first approach, I only change font sizes here */
 @media only screen and (max-width: 767px) {
-	h1 { font-size: 2.5em; }
-	h2 { font-size: .6em; }
-	blockquote p { font-size: 1.5em; }
+
+  h1 { font-size: 2.5em; }
+  h2 { font-size: .6em; }
+  blockquote p { font-size: 1.5em; }
+
 }
 
-/* iPad or bigger */
+/* iPad or bigger ---------------------------------------------- */
 @media only screen and (min-width: 768px) {
-	/* Right white semi-transparent block */
-	body:before {
-		content: "";
-		position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
-		border: 0 solid rgba(255,255,255,.5);
-		border-right-width: 34em;
-	}
 
-	/* Background layer */
-	.bg {
-		position: fixed; top: 0; right: 0; bottom: 0; left: 0;
-		background: url(img/bg.jpg) no-repeat center center fixed;
-		background-size: cover;
-		-webkit-filter: grayscale(100%);
-		transition: 1s;
-	}
-	html:hover .bg { -webkit-filter: grayscale(50%); }
+  /* Right white semi-transparent block */
+  body:before {
+    content: "";
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
+    border: 0 solid rgba(255,255,255,.5);
+    border-right-width: 34em;
+  }
 
-	/* Title effect */
-	h1 { font-size: 3em; display: inline-block; min-height: 1.6em; }
-		h1 b {
-			position: absolute; top: 0; left: 50%;
-			display: block;
-			margin-left: -.8em;
-			padding-right: .25em;
-			width      : 1.6em;
-			height     : 1.6em;
-			line-height: 1.6em;
-			letter-spacing: -.3em;
-			background: black; background: rgba(0,0,0,.9);
-			color: white;
-			border-radius: 50%;
-			margin-bottom: .3em;
-			opacity: 1;
-			/*animation: b 5s both ease-in-out infinite;*/
-		}
-		h1 i, h2 { opacity: 0; }
+  /* Background layer */
+  .bg {
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    transition: 1s;
+  }
+  html:hover .bg { -webkit-filter: grayscale(50%); }
 
-	h2 { font-size: .8em; }
+  /* Title effect */
+  h1 { font-size: 3em; }
+  .ready h1 { animation: fadeInDown 1s 1s backwards; }
+    h1 b {
+      display: inline-block;
+      padding-right: .3em;
+      letter-spacing: -.3em;
+      color: rgb(0,0,0); color: rgba(0,0,0, .7);
+      opacity: 1;
+    }
+    h1 i, h2 { opacity: 0; }
+    h1 i { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
 
-		/* Trick to mantain CSS styles w/ infinite transition delays 
-		   (http://joelb.me/blog/2012/maintaining-css-style-states-using-infinite-transition-delays/) */
-		/*h1 b, h1 i, h1 + h2 { transition: 0 9999999s; }
+  h2 { font-size: .8em; color: rgba(0,0,0,.5); }
+  .ready h2 { opacity: 1; animation: fadeInUp 1s 1s backwards; }
 
-		h1:hover b    { opacity: 0; height: 0; transform: scale(3); transition: opacity .2s, transform .2s, height 0 .2s; }
-		h1:hover i    { opacity: 1; transition: .3s .1s; }
-		h1:hover + h2 { opacity: .75; transition: .2s .1s; }*/
+  /* 
+    Text effect
 
-	/* Main section */
-	section {
-		position: relative;
-		z-index: 2;
-		float: right;
-		width: 34em;
-		padding: 2em;
-	}
+    1. Trick to mantain states w/ "infinite" transition delays (http://cl.ly/K2IR)
+  */
+  h1 b em { position: relative; font-style: normal; }
+  h1:hover b em { left: 10px; opacity: 0; transition: .2s; }
+  h1:hover b em:first-child { left: -100px; }
+  h1:hover i { opacity: 1; transition: .3s .1s; }
 
-	/* Loading layer */
-	.loading { 
-		position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 3;
-		display: block;
-		background: white;
-		opacity: 1; 
-	}
+  h1 b, h1 b em, h1 i { transition: 0 9999999s; } /* 1 */
 
-	/* Spinner */
-	.spinner {
-		position: fixed; top: 50%; left: 50%; z-index: 4;
-		width: 48px;
-		height: 48px;
-		margin: -24px 0 0 -24px;
-		font: 0/0 a; 
-		color: transparent;
-		background: url(img/spinner.gif) no-repeat center center;
-		background: url(img/spinner.png) center center no-repeat border-box;
-		background: url(img/spinner.gif) no-repeat center center\0; /* IE8/9 */
-		animation: spinner .7s steps(8) infinite;
-	}
+  /* Main section */
+  section {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 34em;
+    padding: 2em;
+  }
 
-	/* CSS Animations */
-	/* animation for logo */
-	/*@keyframes b {
-		0%, 20%   { box-shadow: 0 0 10px 2px white; }
-		50%       { box-shadow: 0 0 10px 5px white; }
-		80%, 100% { box-shadow: 0 0 10px 2px white; }
-	}*/
+  /* Loading layer */
+  .loading { 
+    position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 3;
+    display: block;
+    background: white;
+    opacity: 1; 
+  }
 
-	/* spinner animation (based on 8 different steps) */
-	@keyframes spinner { from { background-position: 0 0; } to { background-position: -384px 0; } }
+  /* 
+    Spinner
+
+    1. An image replacement techique to hide the text (http://cl.ly/K2dF)
+    2. It uses CSS Animations with steps, check this example to understand how it works: 
+       http://dabblet.com/gist/1953867
+  */
+  .spinner {
+    position: fixed; top: 50%; left: 50%; z-index: 4;
+    width: 48px;
+    height: 48px;
+    margin: -24px 0 0 -24px;
+    font: 0/0 a; /* 1 */
+    color: transparent;
+    /* Pending to give a gif fallback */
+    background: url(img/spinner.gif) no-repeat center center;
+    background: url(img/spinner.png) no-repeat center center;
+    background: url(img/spinner.gif) no-repeat center center\0; /* IE8/9 */
+    animation: spinner .7s steps(8) infinite; /* 2 */
+  }
+
+  /* 
+    CSS Animations
+
+    More info: http://cl.ly/K2L6
+  */
+ 
+  /* Animations to fade in an element */
+  @keyframes fadeInDown {
+    0%    { opacity: 0; transform: translateY(-20px); }
+    100%  { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeInUp {
+    0%    { opacity: 0; transform: translateY(20px); }
+    100%  { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Spinner animation (based on 8 different steps) */
+  @keyframes spinner { from { background-position: 0 0; } to { background-position: -384px 0; } }
 
 }
 
-/* iPhone (portrait) */
+/* iPhone (portrait) ---------------------------------------------- */
 @media only screen and (orientation: portrait) {
-	section { padding: 2em 1em 1em; }
+
+  section { padding: 2em 1em 1em; }
+
 }
 
-/* iPad (landscape) */
+/* iPad (landscape) ---------------------------------------------- */
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
 and (orientation: landscape) {
-	/* remove circle to fit the content and adjust bg position */
+
+  /* remove circle to fit the content and adjust bg position */
+
 }
 
 /* iPad (portrait) */
@@ -236,5 +295,7 @@ and (orientation: landscape) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
-	/* reduce column size and adjust bg position  */
+
+  /* reduce column size and adjust bg position  */
+
 }

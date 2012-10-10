@@ -4,5 +4,9 @@
 		{
 			"path": "/Users/marcio/Sites/personal/marciobarrios"
 		}
-	]
+	],
+	"settings":
+    {
+        "translate_tabs_to_spaces": false
+    }
 }
