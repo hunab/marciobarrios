@@ -39,8 +39,6 @@ html {
   color: rgb(51,51,51);
   -webkit-font-smoothing: antialiased; /* 2 */
   -webkit-text-size-adjust: 100%; /* 3 */
-     -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 /* Loading layer */
