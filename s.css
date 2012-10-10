@@ -185,15 +185,19 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   }
   html:hover .bg { -webkit-filter: grayscale(50%); }
 
-  /* Title effect */
+  /*
+    Title w/ fade-in animation
+
+    1. letter-spacing specifies spacing behavior between text characters (http://cl.ly/K2I2),
+       the padding-right is to compensate this space
+  */
   h1 { font-size: 3em; }
   .ready h1 { animation: fadeInDown 1s 1s backwards; }
     h1 b {
       display: inline-block;
+      letter-spacing: -.3em; /* 1 */
       padding-right: .3em;
-      letter-spacing: -.3em;
       color: rgb(0,0,0); color: rgba(0,0,0, .7);
-      opacity: 1;
     }
     h1 i, h2 { opacity: 0; }
     h1 i { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
@@ -202,7 +206,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   .ready h2 { opacity: 1; animation: fadeInUp 1s 1s backwards; }
 
   /* 
-    Text effect
+    Text effect on hover
 
     1. Trick to mantain states w/ "infinite" transition delays (http://cl.ly/K2IR)
   */
