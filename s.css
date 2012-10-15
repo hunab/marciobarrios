@@ -1,4 +1,4 @@
-/*················································································
+/*-------------------------------------------------------------------------------------
   Styles for marciobarrios.com, by @marciobarrios
   
    _       __     __                                 __          __     __
@@ -8,16 +8,21 @@
   |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/   \__,_/\__,_/\__,_/\___(_)   
                                                                               
 
-  These styles are not minimized because I love to learn and I've inspected 
-  lots of CSS from many sites, so it's fair to let you steal/copy/learn :)
+  These styles are not minimized because I love to learn and I inspected 
+  lots of CSS from many sites, so it's fair to let you steal/copy/learn,
+  in fact I commented and clarified this css to help you :)
   
   I'm using a mobile first approach, so I style a very basic version of the site 
   and with media queries I add the more css to add value for bigger screens
   
-  Note: I'm using PrefixFree (http://cl.ly/K2vt) to not write browser prefixes, great!
+  Note: I'm using PrefixFree to not write browser prefixes, great! (http://cl.ly/K2vt)
   
   Ah! and remember: http://dowebsitesneedtolookexactlythesameineverybrowser.com
-  ················································································*/
+
+  Check marciobarrios.com/humans.txt for contact info
+  ------------------------------------------------------------------------------------- */
+
+@charset "UTF-8";
 
 /* 
   Super minimal Reset :P if you need one for a "real" project, 
@@ -32,7 +37,7 @@
 
   1. I use typekit (www.typekit.com) to load webfonts, I recommend it! 
   2. Controls how the browser renders text (more info: http://cl.ly/K1pT)
-  3. Prevents zoom on mobile browsers, use it carefully (http://cl.ly/K1to)
+  3. Prevents zoom on mobile browsers, use it carefully (http://cl.ly/K1to, http://cl.ly/K9Xo)
  */
 html {
   font: 100%/1.5 "proxima-nova-1","proxima-nova-2", sans-serif; /* 1 */
@@ -63,10 +68,10 @@ hgroup:after {
   display: block;
   height: 1px;
   margin-top: 2.5em;
-  background: rgba(0,0,0,.2);
+  background: rgb(221,221,221); background: rgba(0,0,0,.2);
   box-shadow: 0 1px -1px rgba(0,0,0,.05);
 }
-  h1 { position: relative; z-index: 1; font-size: 3em; font-weight: 700; transition: .25s; } /* 1 */
+  h1 { z-index: 1; font-size: 3em; font-weight: 700; transition: .25s; } /* 1 */
     h1 b { display: none; }
     h1 i { display: inline-block; font-style: normal; }
 
@@ -87,7 +92,7 @@ p { margin-top: 1.2em; font-size: 1.2em; hyphens: auto; } /* 1 */
 */
 blockquote { margin: 2em 0; }
 blockquote p {
-  font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", sans-serif;
+  font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;
   margin: 0;
 }
 blockquote p:before { content: "\201C"; } /* 1 */
@@ -100,11 +105,11 @@ a { color: #369BCA; text-decoration: none; font-weight: 700; transition: .5s; }
 a:hover { color: inherit; }
 a:active, a:hover { outline: 0; }
 
-/* Main section */
+/* Main section (well... the only section) */
 section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
 /* 
-  Social icons using web fonts (http://symbolset.com)
+  Social icons using web fonts
 
   1. This letter-spacing is to remove white space between inline-block elements,
      but there are other ways to do it: http://cl.ly/K2wS
@@ -139,7 +144,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
       border: 1px solid black;
       color: white; 
       box-shadow: inset 0 0 0 1px rgba(255,255,255,.2);
-      opacity: 0;
+      opacity: 0; filter: alpha(opacity=0);
       transition: .25s;
     }
     /* Making a triangle with borders, more info: http://cl.ly/K2yS */
@@ -152,13 +157,52 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
       border: 5px solid transparent;
       border-top-color: black;
     }
-    li:hover > .hint { top: -2.5em; opacity: 1; }
+    li:hover > .hint { top: -2.5em; opacity: 1;  filter: alpha(opacity=100); }
+
+
+/* ICON FONT (http://symbolset.com)
+   ------------------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "SSSocial";
+  src: url('webfont/ss-social-circle.eot');
+  src: url('webfont/ss-social-circle.eot?#iefix')         format('embedded-opentype'),
+       url('webfont/ss-social-circle.woff')               format('woff'),
+       url('webfont/ss-social-circle.ttf')                format('truetype'),
+       url('webfont/ss-social-circle.svg#SSSocialCircle') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ss-icon, .ss-icon.ss-social, [class^="ss-"]:before {
+  font-family: "SSSocial";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings   : "liga=1";
+  -moz-font-feature-settings   : "liga";
+  -ms-font-feature-settings    : "liga" 1;
+  -o-font-feature-settings     : "liga";
+  font-feature-settings        : "liga";
+}
 
 
 /* MEDIA QUERIES
-   ················································································*/
+   ------------------------------------------------------------------------------------- 
+    
+   Summary of mediaqueries based on a mobile first approach:
 
-/* smaller than iPad, due tu a mobile first approach, I only change font sizes here */
+   * Adjust font size for small screens
+   * Add some styles (background, right content, text animations) to big screens
+   * Adjust some sizes to iPhones retina
+   * Adjust background and sizes for iPad
+
+*/
+
+/* Smaller than iPad. Due to a mobile first approach, I only change font sizes here */
 @media only screen and (max-width: 767px) {
 
   h1 { font-size: 2.5em; }
@@ -172,7 +216,13 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
   html { color: rgba(0,0,0,.7); }
 
-  /* Right white semi-transparent block */
+  /*
+    Right white semi-transparent block
+
+    1. This is to create a full-height column, it would be simper w/ gradients in <body>:
+       background: linear-gradient(right,rgba(255,255,255,.5) 34em, rgba(255,255,255,0) 35em), 
+       but w/ border works in IE
+  */
   body:before {
     content: "";
     position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
@@ -184,7 +234,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     Background layer
 
     1. Easy way to make the background to cover all the viewport (http://cl.ly/K2UL)
-    2. New webkit filters to create a nice effect: if you move out your
+    2. Webkit filters to create a nice effect: if you move out your
        cursor from the viewport it will desaturate the background, more info
        about webkit filters: http://cl.ly/K1ls
   */
@@ -203,16 +253,17 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     1. letter-spacing specifies spacing behavior between text characters (http://cl.ly/K2I2),
        the padding-right is to compensate this space
   */
-  h1 { font-size: 3em; }
+  h1 { position: relative; font-size: 3em; }
   .ready h1 { animation: fadeInDown 1s 1s backwards ease-in-out; }
     h1 b {
       display: inline-block;
       letter-spacing: -.3em; /* 1 */
       padding-right: .3em;
+      font-weight: 700;
       color: rgba(0,0,0, .7);
     }
     h1 i, h2 { opacity: 0; }
-    h1 i { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+    h1 i { position: absolute; top: 0; left: 0; right: 0; }
 
   h2 { font-size: .8em; color: rgba(0,0,0,.5); }
   .ready h2 { opacity: 1; animation: fadeInUp 1s 1s backwards ease-in-out; }
@@ -223,17 +274,18 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     1. Trick to mantain states w/ "infinite" transition delays (http://cl.ly/K2IR)
   */
   h1 b em { position: relative; font-style: normal; }
-  h1:hover b em { left: 10px; opacity: 0; transition: .2s; }
-  h1:hover b em:first-child { left: -100px; }
-  h1:hover i { opacity: 1; transition: .3s .1s; }
+  h1:hover b em { left: 20px; opacity: 0; transition: .2s; }
+  h1:hover b em:first-child { left: -120px; }
+  h1:hover i { opacity: 1; transition: .4s .2s; }
 
-  h1 b, h1 b em, h1 i { transition: 0 9999999s; } /* 1 */
+  /*h1 b, h1 b em, h1 i { transition: 0 9999999s; }*/ /* 1 */
+  h1 b, h1 b em, h1 i { transition: 1s; }
 
   /* Main section */
   section {
-    position: relative;
-    z-index: 2;
+    position: relative; z-index: 2;
     float: right;
+    margin: 0;
     width: 34em;
     padding: 2em;
   }
@@ -258,10 +310,8 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     width: 48px;
     height: 48px;
     margin: -24px 0 0 -24px;
-    font: 0/0 a; /* 1 */
-    color: transparent;
-    /* Pending to give a gif fallback */
-    background: url(img/spinner.gif) no-repeat center center;
+    font: 0/0 a; color: transparent; /* 1 */
+    background: url(img/spinner.gif) no-repeat center center; /* Old versions of modern browsers (without animations) */
     background: url(img/spinner.png) no-repeat center center;
     background: url(img/spinner.gif) no-repeat center center\0; /* IE8/9 */
     animation: spinner .7s steps(8) infinite; /* 2 */
@@ -289,11 +339,35 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
 }
 
-/* iPhone (portrait) ---------------------------------------------- */
+/* iPhone retina (landscape) ---------------------------------------------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
+only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  
+  .ss-icon { font-size: 2em; }
+
+}
+
+/* iPhone/iPad (portrait) ---------------------------------------------- */
 @media only screen and (orientation: portrait) {
 
   section { padding: 2em 1em 1em; }
 
+}
+
+/* iPad (portrait) ---------------------------------------------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) {
+
+  html { background: url(img/bg.jpg) no-repeat -270px -50px fixed; background-size: 200%; }  
+  body:before { border-right-width: 24em; }
+  section { width: 24em; }
+  .social { margin-left: -.45em; }
+    .social > li { margin: .8em 0 0 .45em; }
+      .ss-icon { font-size: 2em; }
+  .bg { display: none; }
 }
 
 /* iPad (landscape) ---------------------------------------------- */
@@ -302,16 +376,9 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px) 
 and (orientation: landscape) {
 
-  /* remove circle to fit the content and adjust bg position */
-
-}
-
-/* iPad (portrait) */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-
-  /* reduce column size and adjust bg position  */
+  html { background: url(img/bg.jpg) no-repeat -120px -100px fixed; background-size: 120%; }
+  hgroup { margin-top: -1em; }
+  hgroup:after { margin-top: 1.7em; }
+  .bg { display: none; }
 
 }
