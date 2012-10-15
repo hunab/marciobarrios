@@ -115,14 +115,14 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
      but there are other ways to do it: http://cl.ly/K2wS
   2. I use to write rgb/hex fallbacks for rgba for <IE9
 */
-.social { letter-spacing: -.2em; margin-left: -.8em; } /* 1 */
+.social { letter-spacing: -.2em; margin-left: -1em; } /* 1 */
   .social > li { 
     position: relative;
     display: inline-block;
     vertical-align: top;
     letter-spacing: 0;
     line-height: 1.1;
-    margin: .8em 0 0 .8em;
+    margin: 1em 0 0 1em;
   }
     .ss-icon { 
       font-size: 2.5em; 
@@ -338,7 +338,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
 }
 
-/* iPhone/iPad (portrait) ---------------------------------------------- */
+/* Portrait Tablets ---------------------------------------------- */
 @media only screen and (orientation: portrait) {
 
   section { padding: 2em 1em 1em; }
