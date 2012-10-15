@@ -174,7 +174,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   font-style: normal;
 }
 
-.ss-icon, .ss-icon.ss-social, [class^="ss-"]:before {
+.ss-icon, [class^="ss-"]:before {
   font-family: "SSSocial";
   font-style: normal;
   font-weight: normal;
@@ -343,7 +343,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
   section { padding: 2em 1em 1em; }
    .social { margin-left: -1.2em; text-align: center; }
-    .social > li  { margin: 1.2em 0 0 1.2em; }
+    .social > li { margin: 1.2em 0 0 1.2em; }
       .ss-icon { font-size: 2.8em; }
 }
 
@@ -357,7 +357,7 @@ and (orientation: portrait) {
   body:before { border-right-width: 24em; }
   section { width: 24em; padding: 2em; }
   .social { margin-left: -1.6em; text-align: center; }
-    .social > li  { margin: 1.2em 0 0 1.6em; }
+    .social > li { margin: 1.2em 0 0 1.6em; }
       .ss-icon { font-size: 2.8em; }
   .bg { display: none; }
 }
@@ -372,7 +372,7 @@ and (orientation: landscape) {
   hgroup { margin-top: -1em; }
   hgroup:after { margin-top: 1.7em; }
   .social { margin-left: -1em; text-align: left; }
-    .social > li  { margin: 1.2em 0 0 1em; }
+    .social > li { margin: 1.2em 0 0 1em; }
       .ss-icon { font-size: 2.8em; }
   .bg { display: none; }
 
