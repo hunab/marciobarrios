@@ -25,7 +25,7 @@
 @charset "UTF-8";
 
 /* 
-  Super minimal Reset :P if you need one for a "real" project, 
+  Super minimal Reset :P if you need one for a "real" project,
   use normalize.css (http://cl.ly/K2QO)
 
   Read this related with "box-sizing" property: http://cl.ly/K1kT 
@@ -363,10 +363,8 @@ and (orientation: portrait) {
 
   html { background: url(img/bg.jpg) no-repeat -270px -50px fixed; background-size: 200%; }  
   body:before { border-right-width: 24em; }
-  section { width: 24em; }
-  .social { margin-left: -.45em; }
-    .social > li { margin: .8em 0 0 .45em; }
-      .ss-icon { font-size: 2em; }
+  section { width: 24em; padding: 2em; }
+  .social { width: 13em; }
   .bg { display: none; }
 }
 

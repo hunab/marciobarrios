@@ -1,9 +1,7 @@
-marciobarrios
-=============
+#marciobarrios.com website
 
-My one-page responsive website, you can take a look at the css, it's well commented and I remark some nice techniques I used, here it is: [link!]
+My one-page responsive website, you can take a look at the css, it's well commented and I remark some nice techniques I used, here it is: [https://github.com/hunab/marciobarrios/blob/master/s.css](https://github.com/hunab/marciobarrios/blob/master/s.css)
 
-Todo:
+To-do:
 
-* Add smaller backgrounds w/ mediqueries
-* Join javascripts and css
+* Add smaller backgrounds w/ mediaqueries
