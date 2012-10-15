@@ -157,7 +157,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
       border: 5px solid transparent;
       border-top-color: black;
     }
-    li:hover > .hint { top: -2.5em; opacity: 1;  filter: alpha(opacity=100); }
+    li:hover > .hint { top: -2.5em; opacity: 1; filter: alpha(opacity=100); }
 
 
 /* ICON FONT (http://symbolset.com)
@@ -196,8 +196,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
    Summary of mediaqueries based on a mobile first approach:
 
    * Adjust font size for small screens
-   * Add some styles (background, right content, text animations) to big screens
-   * Adjust some sizes to iPhones retina
+   * Add some styles (background, content, text animations) to big screens
    * Adjust background and sizes for iPad
 
 */
@@ -295,7 +294,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 3;
     display: block;
     background: white;
-    opacity: 1; 
+    opacity: 1;
   }
 
   /* 
@@ -339,20 +338,13 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
 }
 
-/* iPhone retina (landscape) ---------------------------------------------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape),
-only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape) {
-  
-  .ss-icon { font-size: 2em; }
-
-}
-
 /* iPhone/iPad (portrait) ---------------------------------------------- */
 @media only screen and (orientation: portrait) {
 
   section { padding: 2em 1em 1em; }
-
+   .social { margin-left: -1.2em; text-align: center; }
+    .social > li  { margin: 1.2em 0 0 1.2em; }
+      .ss-icon { font-size: 2.8em; }
 }
 
 /* iPad (portrait) ---------------------------------------------- */
@@ -364,7 +356,9 @@ and (orientation: portrait) {
   html { background: url(img/bg.jpg) no-repeat -270px -50px fixed; background-size: 200%; }  
   body:before { border-right-width: 24em; }
   section { width: 24em; padding: 2em; }
-  .social { width: 13em; }
+  .social { margin-left: -1.6em; text-align: center; }
+    .social > li  { margin: 1.2em 0 0 1.6em; }
+      .ss-icon { font-size: 2.8em; }
   .bg { display: none; }
 }
 
@@ -377,6 +371,9 @@ and (orientation: landscape) {
   html { background: url(img/bg.jpg) no-repeat -120px -100px fixed; background-size: 120%; }
   hgroup { margin-top: -1em; }
   hgroup:after { margin-top: 1.7em; }
+  .social { margin-left: -1em; text-align: left; }
+    .social > li  { margin: 1.2em 0 0 1em; }
+      .ss-icon { font-size: 2.8em; }
   .bg { display: none; }
 
 }
