@@ -157,7 +157,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
       border: 5px solid transparent;
       border-top-color: black;
     }
-    li:hover > .hint { top: -2.5em; opacity: 1; filter: alpha(opacity=100); }
+    li:hover > .hint { top: -2.5em; opacity: 1; filter: none; }
 
 
 /* ICON FONT (http://symbolset.com)
