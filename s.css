@@ -1,22 +1,22 @@
 /*-------------------------------------------------------------------------------------
   Styles for marciobarrios.com, by @marciobarrios
-  
+
    _       __     __                                 __          __     __
   | |     / /__  / /________  ____ ___  ___     ____/ /_  ______/ /__  / /
-  | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \   / __  / / / / __  / _ \/ / 
-  | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/  / /_/ / /_/ / /_/ /  __/_/  
-  |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/   \__,_/\__,_/\__,_/\___(_)   
-                                                                              
+  | | /| / / _ \/ / ___/ __ \/ __ `__ \/ _ \   / __  / / / / __  / _ \/ /
+  | |/ |/ /  __/ / /__/ /_/ / / / / / /  __/  / /_/ / /_/ / /_/ /  __/_/
+  |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/   \__,_/\__,_/\__,_/\___(_)
 
-  These styles are not minimized because I love to learn and I inspected 
+
+  These styles are not minimized because I love to learn and I inspected
   lots of CSS from many sites, so it's fair to let you steal/copy/learn,
   in fact I commented and clarified this css to help you :)
-  
-  I'm using a mobile first approach, so I style a very basic version of the site 
+
+  I'm using a mobile first approach, so I style a very basic version of the site
   and with media queries I add the more css to add value for bigger screens
-  
+
   Note: I'm using PrefixFree to not write browser prefixes, great! (http://cl.ly/K2vt)
-  
+
   Ah! and remember: http://dowebsitesneedtolookexactlythesameineverybrowser.com
 
   Check marciobarrios.com/humans.txt for contact info
@@ -24,23 +24,24 @@
 
 @charset "UTF-8";
 
-/* 
+/*
   Super minimal Reset :P if you need one for a "real" project,
   use normalize.css (http://cl.ly/K2QO)
 
-  Read this related with "box-sizing" property: http://cl.ly/K1kT 
+  Read this related with "box-sizing" property: http://cl.ly/K1kT
 */
 * { padding: 0; margin: 0; box-sizing: border-box; }
 
-/* 
-  General styles 
+/*
+  General styles
 
-  1. I use typekit (www.typekit.com) to load webfonts, I recommend it! 
+  1. I use typekit (www.typekit.com) to load webfonts, I recommend it!
   2. Controls how the browser renders text (more info: http://cl.ly/K1pT)
   3. Prevents zoom on mobile browsers, use it carefully (http://cl.ly/K1to, http://cl.ly/K9Xo)
  */
 html {
-  font: 100%/1.5 "proxima-nova-1","proxima-nova-2", sans-serif; /* 1 */
+  /*font: 100%/1.5 "proxima-nova-1","proxima-nova-2", sans-serif;*/
+  font: 90%/1.6 "Gotham HTF", sans-serif; /* 1 */
   color: rgb(51,51,51);
   -webkit-font-smoothing: antialiased; /* 2 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -50,16 +51,16 @@ html {
 .loading { display: none; }
 .ready .loading { transition: .5s linear; opacity: 0; z-index: -1; }
 
-/* 
-  Title block 
+/*
+  Title block
 
   1. Use unitless line-height (http://cl.ly/K2Zs)
 */
 hgroup { position: relative; text-align: center; line-height: 1.2; } /* 1 */
 
-/* 
+/*
   Title separator
-  
+
   1. Only to remember, transition is a shorthand taking advantage of these defaults:
      transition-property: all, transition-timing-function: ease, transition-delay: 0s
 */
@@ -77,22 +78,23 @@ hgroup:after {
 
   h2 { font-size: .9em; letter-spacing: .4em; padding-left: .4em; font-weight: 400; }
 
-/* 
-  Other elements 
+/*
+  Other elements
 
   1. I recommend to use hyphens for your paragraphs (http://cl.ly/K36M)
 */
 p { margin-top: 1.2em; font-size: 1.2em; hyphens: auto; } /* 1 */
 
-/* 
-  Quote 
+/*
+  Quote
 
   1. Using unicode characters (in this case for quotes), a great resource here: http://unicodinator.com
   2. Remember, in HTML5 footer is not only the page footer (http://cl.ly/K2ei)
 */
 blockquote { margin: 2em 0; }
 blockquote p {
-  font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;
+  /*font: italic 2.2em/1.2 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", serif;*/
+  font: 2.2em/1.2 "Sentinel Book", serif;
   margin: 0;
 }
 blockquote p:before { content: "\201C"; } /* 1 */
@@ -108,7 +110,7 @@ a:active, a:hover { outline: 0; }
 /* Main section (well... the only section) */
 section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 
-/* 
+/*
   Social icons using web fonts
 
   1. This letter-spacing is to remove white space between inline-block elements,
@@ -116,7 +118,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   2. I use to write rgb/hex fallbacks for rgba for <IE9
 */
 .social { letter-spacing: -.2em; margin-left: -1em; } /* 1 */
-  .social > li { 
+  .social > li {
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -124,13 +126,16 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     line-height: 1.1;
     margin: 1em 0 0 1em;
   }
-    .ss-icon { 
-      font-size: 2.5em; 
+    .ss-icon {
+      font-size: 2.5em;
       color: rgb(0,0,0); color: rgba(0,0,0,.25); /* 2 */
-      text-shadow: 0 0 10px rgba(255,255,255,.5);
+      /*text-shadow: 0 0 10px rgba(255,255,255,.5);*/
       transition: .5s;
-    } 
-    .ss-icon:hover { color: #369BCA; }
+    }
+    .ss-icon:hover {
+      color: #369BCA;
+      text-shadow: 0 0 1px rgba(255,255,255,.75);
+    }
 
     /* Tooltip to show transitioned on hover for every item */
     .hint {
@@ -142,7 +147,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
       border-radius: 3px;
       background: rgb(0,0,0); background: rgba(0,0,0,.8);
       border: 1px solid black;
-      color: white; 
+      color: white;
       box-shadow: inset 0 0 0 1px rgba(255,255,255,.2);
       opacity: 0; filter: alpha(opacity=0);
       transition: .25s;
@@ -190,9 +195,48 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 }
 
 
+/* WEB FONTS
+   ------------------------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Gotham HTF';
+  src: url('GothamHTF-Bold.eot'); /* IE9 Compat Modes */
+  src: url('GothamHTF-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GothamHTF-Bold.woff') format('woff'), /* Modern Browsers */
+       url('GothamHTF-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GothamHTF-Bold.svg#030251e5701d786046d51ed2261d4a74') format('svg'); /* Legacy iOS */
+
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gotham HTF Book';
+  src: url('GothamHTF-Book.eot'); /* IE9 Compat Modes */
+  src: url('GothamHTF-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GothamHTF-Book.woff') format('woff'), /* Modern Browsers */
+       url('GothamHTF-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GothamHTF-Book.svg#8815e0559e42d2bb6d63fb542f63fc99') format('svg'); /* Legacy iOS */
+
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Sentinel Book';
+  src: url('webfont/Sentinel-Book.eot'); /* IE9 Compat Modes */
+  src: url('webfont/Sentinel-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont/Sentinel-Book.woff') format('woff'), /* Modern Browsers */
+       url('webfont/Sentinel-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont/Sentinel-Book.svg#fb7f01513910e38bdb2e628a3e62faf5') format('svg'); /* Legacy iOS */
+
+  font-style: normal;
+  font-weight: 400;
+}
+
+
 /* MEDIA QUERIES
-   ------------------------------------------------------------------------------------- 
-    
+   -------------------------------------------------------------------------------------
+
    Summary of mediaqueries based on a mobile first approach:
 
    * Adjust font size for small screens
@@ -219,7 +263,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     Right white semi-transparent block
 
     1. This is to create a full-height column, it would be simper w/ gradients in <body>:
-       background: linear-gradient(right,rgba(255,255,255,.5) 34em, rgba(255,255,255,0) 35em), 
+       background: linear-gradient(right,rgba(255,255,255,.5) 34em, rgba(255,255,255,0) 35em),
        but w/ border works in IE
   */
   body:before {
@@ -229,7 +273,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     border-right-width: 34em;
   }
 
-  /* 
+  /*
     Background layer
 
     1. Easy way to make the background to cover all the viewport (http://cl.ly/K2UL)
@@ -267,9 +311,9 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   h2 { color: rgba(0,0,0,.5); }
   .ready h2 { opacity: 1; animation: fadeInUp 1s 1s backwards ease-in-out; }
 
-  /* 
-    Text effect on hover 
-  
+  /*
+    Text effect on hover
+
     1. Trick to mantain states w/ "infinite" transition delays (http://cl.ly/K2IR)
   */
   h1 b em { position: relative; font-style: normal; }
@@ -289,18 +333,18 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   }
 
   /* Loading layer */
-  .loading { 
+  .loading {
     position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 3;
     display: block;
     background: white;
     opacity: 1;
   }
 
-  /* 
+  /*
     Spinner
 
     1. An image replacement techique to hide the text (http://cl.ly/K2dF)
-    2. It uses CSS Animations with steps, check this example to understand how it works: 
+    2. It uses CSS Animations with steps, check this example to understand how it works:
        http://dabblet.com/gist/1953867
   */
   .spinner {
@@ -315,12 +359,12 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     animation: spinner .7s steps(8) infinite; /* 2 */
   }
 
-  /* 
+  /*
     CSS Animations
 
     More info: http://cl.ly/K2L6
   */
- 
+
   /* Animations to fade in an element */
   @keyframes fadeInDown {
     0%    { opacity: 0; transform: translateY(-20px); }
@@ -348,8 +392,8 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
 }
 
 /* iPad (portrait & landscape) ---------------------------------- */
-@media only screen 
-and (min-device-width: 768px) 
+@media only screen
+and (min-device-width: 768px)
 and (max-device-width: 1024px) {
 
   h2 { font-size: .83em; }
@@ -358,7 +402,7 @@ and (max-device-width: 1024px) {
   .ready h1 b em { left: 20px; opacity: 0; transition: .2s 5s; }
   .ready h1 b em:first-child { left: -120px; }
   .ready h1 i { opacity: 1; transition: .4s 5.2s; }
-  
+
   .ss-icon { font-size: 2.8em; }
 
   .bg { display: none; }
@@ -366,9 +410,9 @@ and (max-device-width: 1024px) {
 }
 
 /* iPad (portrait) ---------------------------------------------- */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
 and (orientation: portrait) {
 
   html { background: url(img/bg.jpg) no-repeat -270px -50px fixed; background-size: 200%; }
@@ -378,13 +422,13 @@ and (orientation: portrait) {
 
   .social { margin-left: -1.6em; text-align: center; }
     .social > li { margin: 1.2em 0 0 1.6em; }
-  
+
 }
 
 /* iPad (landscape) -------------------------------------------- */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
 and (orientation: landscape) {
 
   html { background: url(img/bg.jpg) no-repeat -120px -100px fixed; background-size: 120%; }
