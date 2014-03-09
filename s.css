@@ -140,7 +140,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
     /* Tooltip to show transitioned on hover for every item */
     .hint {
       position: absolute; top: -3.5em; left: 50%;
-      width: 6em;
+      width: 6.5em;
       margin-left: -3em;
       padding: .2em .4em;
       text-align: center;
