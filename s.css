@@ -269,7 +269,7 @@ section { width: auto; max-width: 34em; margin: 0 auto; padding: 2em; }
   body:before {
     content: "";
     position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
-    border: 0 solid rgba(255,255,255,.5);
+    border: 0 solid rgba(255,255,255,.25);
     border-right-width: 34em;
   }
 
